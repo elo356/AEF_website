@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dr. Adalberto Echevarría Feliciano | Clínica Médica en Añasco</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="icon" href="doctor-icon.png">
+  <style>
+    html { scroll-behavior: smooth; }
+    .fade-in { animation: fadeIn 1s ease-in-out; }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans">
+
+  <!-- NAVBAR -->
+  <header class="fixed top-0 left-0 w-full bg-white/80 backdrop-blur-md shadow-sm z-50">
+    <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+      <h1 class="text-xl font-bold text-blue-800">Dr. Echevarría Feliciano</h1>
+      <nav class="hidden md:flex gap-6 text-sm text-gray-700">
+        <a href="#inicio" class="hover:text-blue-600">Inicio</a>
+        <a href="#sobre" class="hover:text-blue-600">Sobre</a>
+        <a href="#servicios" class="hover:text-blue-600">Servicios</a>
+        <a href="#galeria" class="hover:text-blue-600">Galería</a>
+        <a href="#equipo" class="hover:text-blue-600">Equipo</a>
+        <a href="#contacto" class="hover:text-blue-600">Contacto</a>
+      </nav>
+      <a href="tel:+19396996336" class="bg-blue-700 text-white px-4 py-2 rounded-lg text-sm hover:bg-blue-600">
+        Llamar
+      </a>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section id="inicio" class="pt-24 relative bg-gradient-to-b from-blue-100 to-white">
+    <div class="max-w-7xl mx-auto px-6 flex flex-col md:flex-row items-center py-16 fade-in">
+      <div class="md:w-1/2 mb-10 md:mb-0">
+        <h2 class="text-4xl font-bold text-blue-900 mb-4 leading-snug">
+          Medicina primaria, preventiva y empática en Añasco. <br>Tu Salud es nuestra prioridad!
+        </h2>
+        <p class="text-gray-600 mb-6">
+          Atención médica integral con enfoque en la prevención, el bienestar y el trato personal.
+        </p>
+        <a href="#contacto" class="bg-blue-700 text-white px-6 py-3 rounded-lg hover:bg-blue-600 transition">Agendar cita</a>
+      </div>
+      <div class="md:w-1/2">
+        <img src="images/oficina18.jpg" alt="Clínica médica moderna" class="rounded-2xl shadow-lg">
+      </div>
+    </div>
+  </section>
+
+  <!-- SOBRE NOSOTROS -->
+  <section id="sobre" class="py-20 bg-white">
+    <div class="max-w-6xl mx-auto px-6 text-center">
+      <h3 class="text-3xl font-semibold text-blue-900 mb-8">Sobre Nosotros</h3>
+      <p class="max-w-3xl mx-auto text-gray-600 leading-relaxed">
+        En la clínica del Dr. Adalberto Echevarría Feliciano nos dedicamos a cuidar la salud de la comunidad con servicios accesibles, profesionales y humanos. Creemos en la medicina preventiva y en la cercanía con nuestros pacientes.
+      </p>
+      <div class="grid md:grid-cols-3 gap-10 mt-12">
+        <div class="p-6 border rounded-2xl shadow-sm bg-blue-50 hover:shadow-md transition">
+          <h4 class="font-bold text-blue-800 mb-2">Misión</h4>
+          <p>Brindar atención médica integral y preventiva centrada en la salud y bienestar de cada paciente.</p>
+        </div>
+        <div class="p-6 border rounded-2xl shadow-sm bg-blue-50 hover:shadow-md transition">
+          <h4 class="font-bold text-blue-800 mb-2">Visión</h4>
+          <p>Ser un modelo de excelencia médica en el área oeste de Puerto Rico.</p>
+        </div>
+        <div class="p-6 border rounded-2xl shadow-sm bg-blue-50 hover:shadow-md transition">
+          <h4 class="font-bold text-blue-800 mb-2">Valores</h4>
+          <p>Respeto, empatía, ética, compromiso y profesionalismo en cada consulta.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICIOS -->
+  <section id="servicios" class="py-20 bg-blue-50">
+    <div class="max-w-6xl mx-auto px-6 text-center">
+      <h3 class="text-3xl font-semibold text-blue-900 mb-10">Servicios Médicos</h3>
+      <div class="grid sm:grid-cols-2 md:grid-cols-3 gap-8">
+        <div class="bg-white p-8 rounded-2xl shadow hover:shadow-lg transition">
+          <h4 class="font-semibold text-blue-800 mb-3">Medicina Primaria</h4>
+          <p>Evaluación y manejo integral de la salud familiar y condiciones crónicas.</p>
+        </div>
+        <div class="bg-white p-8 rounded-2xl shadow hover:shadow-lg transition">
+          <h4 class="font-semibold text-blue-800 mb-3">Cirugía Menor</h4>
+          <p>Procedimientos ambulatorios simples con tecnología moderna y esterilización completa.</p>
+        </div>
+        <div class="bg-white p-8 rounded-2xl shadow hover:shadow-lg transition">
+          <h4 class="font-semibold text-blue-800 mb-3">Telemedicina</h4>
+          <p>Consultas médicas seguras desde tu hogar con video o llamada telefónica.</p>
+        </div>
+        <div class="bg-white p-8 rounded-2xl shadow hover:shadow-lg transition">
+          <h4 class="font-semibold text-blue-800 mb-3">Certificados Médicos</h4>
+          <p>Certificados de salud, matrimonio y licencias de conducir.</p>
+        </div>
+        <div class="bg-white p-8 rounded-2xl shadow hover:shadow-lg transition">
+          <h4 class="font-semibold text-blue-800 mb-3">Control de Peso</h4>
+          <p>Asesoramiento médico y nutricional para un estilo de vida saludable. Trabajamos GLP1 y GIP</p>
+        </div>
+        <div class="bg-white p-8 rounded-2xl shadow hover:shadow-lg transition">
+          <h4 class="font-semibold text-blue-800 mb-3">Visitas al Hogar</h4>
+          <p>Atención personalizada en la comodidad de tu residencia.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- NUEVAS SECCIONES: HORARIOS Y MÉTODOS DE PAGO -->
+  <section class="max-w-6xl mx-auto px-6 py-12">
+    <div class="grid md:grid-cols-2 gap-8">
+      <!-- HORARIOS -->
+      <section id="horarios" class="bg-white rounded-2xl p-8 shadow">
+        <h3 class="text-2xl font-bold text-sky-800 mb-4">🕒 Horarios de Atención</h3>
+        <p class="text-gray-600 mb-4">Visítanos en nuestros horarios regulares. También contamos con teleconsultas por cita previa.</p>
+        <ul class="text-gray-700 space-y-2 text-sm">
+          <li><strong>Lunes a Jueves:</strong> 8:00 am — 4:00 pm</li>
+          <li><strong>Viernes:</strong> 8:00 am — 3:00 pm</li>
+          <li><strong>Sábado:</strong> 8:00 am — 12:00 pm</li>
+        </ul>
+      </section>
+
+      <!-- MÉTODOS DE PAGO -->
+      <section id="planes" class="bg-gradient-to-b from-white to-sky-50 p-8 rounded-2xl shadow">
+        <h3 class="text-2xl font-bold text-sky-800 mb-4">💳 Métodos de Pago</h3>
+        <p class="text-gray-600 mb-6">Aceptamos la mayoría de los planes médicos, incluyendo Plan Vital. Consulte si su plan está cubierto.</p>
+        <div class="grid sm:grid-cols-3 gap-6 text-center text-sm">
+          <div class="bg-white rounded-lg p-6 shadow">
+            <h4 class="font-semibold text-sky-700 mb-2">Efectivo</h4>
+            <p class="text-gray-600">Pagos directos en oficina.</p>
+          </div>
+          <div class="bg-white rounded-lg p-6 shadow">
+            <h4 class="font-semibold text-sky-700 mb-2">Transferencias</h4>
+            <p class="text-gray-600">ATH Móvil y Zelle disponibles.</p>
+          </div>
+          <div class="bg-white rounded-lg p-6 shadow">
+            <h4 class="font-semibold text-sky-700 mb-2">Tarjetas</h4>
+            <p class="text-gray-600">Visa, MasterCard, American Express y Discover.</p>
+          </div>
+        </div>
+      </section>
+    </div>
+  </section>
+
+<!-- GALERÍA MODERNA -->
+<section id="galeria" class="py-20 bg-white">
+  <div class="max-w-6xl mx-auto px-6">
+    <h3 class="text-3xl font-semibold text-center text-blue-900 mb-10">Nuestras Instalaciones</h3>
+
+    <!-- Swiper -->
+    <div class="swiper myGallery">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide"><img src="images/oficina8.jpg" alt="Recepción"></div>
+        <div class="swiper-slide"><img src="images/oficina2.jpg" alt="Sala de Espera"></div>
+        <div class="swiper-slide"><img src="images/oficina3.jpg" alt="Área de Consulta"></div>
+        <div class="swiper-slide"><img src="images/oficina4.jpg" alt="Área de Procedimientos"></div>
+        <div class="swiper-slide"><img src="images/oficina5.jpg" alt="Fachada"></div>
+        <div class="swiper-slide"><img src="images/oficina6.jpg" alt="Área Administrativa"></div>
+        <div class="swiper-slide"><img src="images/oficina9.jpg" alt="Recepción"></div>
+        <div class="swiper-slide"><img src="images/oficina10.jpg" alt="Sala de Espera"></div>
+        <div class="swiper-slide"><img src="images/oficina12.jpg" alt="Área de Consulta"></div>
+        <div class="swiper-slide"><img src="images/oficina14.jpg" alt="Área de Procedimientos"></div>
+        <div class="swiper-slide"><img src="images/oficina15.jpg" alt="Fachada"></div>
+        <div class="swiper-slide"><img src="images/oficina16.jpg" alt="Recepción"></div>
+        <div class="swiper-slide"><img src="images/oficina18.jpg" alt="Sala de Espera"></div>
+        <div class="swiper-slide"><img src="images/oficina19.jpg" alt="Área de Consulta"></div>
+        <div class="swiper-slide"><img src="images/oficina20.jpg" alt="Área de Procedimientos"></div>
+      </div>
+
+      <!-- Botones y paginación -->
+      <div class="swiper-pagination"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+    </div>
+  </div>
+</section>
+
+<!-- Swiper.js -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<script>
+  const swiper = new Swiper(".myGallery", {
+    loop: true,
+    autoplay: {
+      delay: 2500,
+      disableOnInteraction: false,
+    },
+    slidesPerView: 1,
+    spaceBetween: 20,
+    breakpoints: {
+      640: { slidesPerView: 2 },
+      1024: { slidesPerView: 3 },
+    },
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+  });
+</script>
+
+<style>
+  .swiper-slide img {
+    width: 100%;
+    height: 320px;
+    object-fit: cover;
+    border-radius: 1rem;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+    transition: transform 0.3s ease;
+  }
+
+  .swiper-slide img:hover {
+    transform: scale(1.05);
+  }
+
+  .swiper-button-next,
+  .swiper-button-prev {
+    color: #1e3a8a; /* Azul */
+  }
+
+  .swiper-pagination-bullet-active {
+    background: #1e3a8a;
+  }
+</style>
+
+
+  <!-- EQUIPO -->
+  <section id="equipo" class="py-20 bg-blue-50">
+    <div class="max-w-6xl mx-auto px-6 text-center">
+      <h3 class="text-3xl font-semibold text-blue-900 mb-6">Nuestro Equipo</h3>
+      <p class="max-w-2xl mx-auto text-gray-600 mb-8">Profesionales comprometidos con la atención humana y de calidad para toda la familia.</p>
+
+      <div class="grid sm:grid-cols-2 md:grid-cols-4 gap-8">
+        <div class="bg-white p-6 rounded-2xl shadow flex flex-col items-center">
+          <img src="images/Personal/individual3.jpg" alt="Dr. Adalberto Echevarría" class="w-28 h-28 object-cover rounded-full mb-4">
+          <h4 class="font-semibold text-blue-800 text-center">Dr. Adalberto Echevarría</h4>
+          <p class="text-sm text-gray-600 text-center">Médico General</p>
+        </div>
+
+        <div class="bg-white p-6 rounded-2xl shadow flex flex-col items-center">
+          <img src="images/Personal/individual1.jpg" alt="Dra. Frances L. Vélez" class="w-28 h-28 object-cover rounded-full mb-4">
+          <h4 class="font-semibold text-blue-800 text-center">Dra. Frances L. Vélez</h4>
+          <p class="text-sm text-gray-600 text-center">Médico General</p>
+        </div>
+
+        <div class="bg-white p-6 rounded-2xl shadow flex flex-col items-center">
+          <img src="images/Personal/individual4.jpg" alt="Milagros González" class="w-28 h-28 object-cover rounded-full mb-4">
+          <h4 class="font-semibold text-blue-800 text-center">Milagros González</h4>
+          <p class="text-sm text-gray-600 text-center">RN, BSN</p>
+        </div>
+
+        <div class="bg-white p-6 rounded-2xl shadow flex flex-col items-center">
+          <img src="images/Personal/individual2.jpg" alt="Ada Echevarría" class="w-28 h-28 object-cover rounded-full mb-4">
+          <h4 class="font-semibold text-blue-800 text-center">Ada Echevarría</h4>
+          <p class="text-sm text-gray-600 text-center">Asistente Administrativo</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACTO (reasignado y organizado) -->
+  <section id="contacto" class="py-20 bg-white text-gray-800">
+    <div class="max-w-6xl mx-auto px-6">
+      <h3 class="text-3xl font-semibold text-blue-900 mb-6 text-center">Contacto</h3>
+      <p class="text-center text-gray-600 max-w-2xl mx-auto mb-10">Agenda tu cita o envíanos tu consulta. Respuesta en menos de 24 horas laborables.</p>
+
+      <div class="grid md:grid-cols-2 gap-8 items-start">
+        <!-- PANEL IZQUIERDO: INFO + MAPA -->
+        <div class="space-y-6">
+          <div class="bg-blue-50 border border-blue-100 rounded-2xl p-6 shadow-sm">
+            <h4 class="text-xl font-semibold text-blue-900 mb-2">Información</h4>
+
+            <div class="flex items-start gap-3 py-2">
+              <div class="text-2xl">📍</div>
+              <div>
+                <div class="font-medium">Golden Plaza #3</div>
+                <div class="text-sm text-gray-600">Carretera 402 KM 2.1, Bo. Marías, Añasco, PR</div>
+              </div>
+            </div>
+
+            <div class="flex items-start gap-3 py-2">
+              <div class="text-2xl">📞</div>
+              <div>
+                <a href="tel:+19396996336" class="font-medium text-blue-800">+1 (939) 699-6336</a>
+                <div class="text-sm text-gray-600">Llamadas y SMS</div>
+              </div>
+            </div>
+
+            <div class="flex items-start gap-3 py-2">
+              <div class="text-2xl">💬</div>
+              <div>
+                <a href="https://wa.me/19396996336" target="_blank" rel="noopener" class="font-medium text-blue-800">WhatsApp</a>
+                <div class="text-sm text-gray-600">Mensajes rápidos</div>
+              </div>
+            </div>
+
+            <div class="flex items-start gap-3 py-2">
+              <div class="text-2xl">📧</div>
+              <div>
+                <a href="mailto:adalbertoechevarriamd@gmail.com" class="font-medium text-blue-800">adalbertoechevarriamd@gmail.com</a>
+                <div class="text-sm text-gray-600">Correo para documentos</div>
+              </div>
+            </div>
+
+            <div class="mt-4 flex gap-3">
+              <a href="tel:+19396996336" class="inline-flex items-center gap-2 bg-blue-900 text-white px-4 py-2 rounded-lg shadow-sm hover:bg-blue-800">
+                📞 Llamar
+              </a>
+              <a href="https://wa.me/19396996336" target="_blank" rel="noopener" class="inline-flex items-center gap-2 border border-blue-100 text-blue-800 px-4 py-2 rounded-lg hover:bg-blue-50">
+                💬 WhatsApp
+              </a>
+            </div>
+          </div>
+
+          <div class="rounded-2xl overflow-hidden border border-gray-100 shadow-sm">
+            <iframe src="https://www.google.com/maps?q=Golden+Plaza+Añasco+Puerto+Rico&output=embed"
+              class="w-full h-56 md:h-64 border-0" loading="lazy" title="Mapa - Golden Plaza Añasco"></iframe>
+          </div>
+        </div>
+
+        <!-- PANEL DERECHO: FORMULARIO -->
+        <form class="bg-white border border-gray-100 rounded-2xl p-6 shadow-sm" action="#" method="post" novalidate>
+          <h4 class="text-lg font-semibold text-blue-900 mb-4">Enviar Mensaje</h4>
+
+          <div class="grid sm:grid-cols-2 gap-3">
+            <div>
+              <label for="nombre" class="text-sm font-medium text-gray-700">Nombre</label>
+              <input id="nombre" name="nombre" required type="text" placeholder="Tu nombre" class="mt-1 w-full border rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-sky-500" />
+            </div>
+
+            <div>
+              <label for="telefono" class="text-sm font-medium text-gray-700">Teléfono</label>
+              <input id="telefono" name="telefono" type="tel" placeholder="(939) 699-6336" class="mt-1 w-full border rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-sky-500" />
+            </div>
+          </div>
+
+          <div class="mt-3">
+            <label for="email" class="text-sm font-medium text-gray-700">Correo electrónico</label>
+            <input id="email" name="email" required type="email" placeholder="ejemplo@correo.com" class="mt-1 w-full border rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-sky-500" />
+          </div>
+
+          <div class="mt-3">
+            <label for="mensaje" class="text-sm font-medium text-gray-700">Mensaje</label>
+            <textarea id="mensaje" name="mensaje" rows="5" placeholder="Describe brevemente tu consulta" class="mt-1 w-full border rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-sky-500"></textarea>
+          </div>
+
+          <fieldset class="mt-3">
+            <legend class="text-sm font-medium text-gray-700">Prefieres ser contactado por</legend>
+            <div class="flex gap-4 mt-2 text-sm">
+              <label class="inline-flex items-center gap-2">
+                <input type="radio" name="contacto_pref" value="telefono" class="form-radio" checked>
+                <span>Teléfono</span>
+              </label>
+              <label class="inline-flex items-center gap-2">
+                <input type="radio" name="contacto_pref" value="whatsapp" class="form-radio">
+                <span>WhatsApp</span>
+              </label>
+              <label class="inline-flex items-center gap-2">
+                <input type="radio" name="contacto_pref" value="email" class="form-radio">
+                <span>Correo</span>
+              </label>
+            </div>
+          </fieldset>
+
+          <label class="inline-flex items-center mt-4 text-sm">
+            <input type="checkbox" name="consent" class="form-checkbox h-4 w-4 text-sky-600 rounded" />
+            <span class="ml-2 text-sm text-gray-600">Autorizo el uso de mis datos para gestionar la cita</span>
+          </label>
+
+          <button type="submit" class="mt-4 w-full bg-blue-900 text-white px-4 py-3 rounded-lg font-medium hover:bg-blue-800 transition">Enviar mensaje</button>
+
+          <p class="text-xs text-gray-500 mt-3">Al enviar aceptas que nos comuniquemos por los medios indicados. No compartimos tus datos.</p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="bg-blue-950 text-white text-center py-6 text-sm">
+    <p>© 2025 Clínica del Dr. Adalberto Echevarría Feliciano</p>
+    <div class="flex justify-center gap-4 mt-3">
+      <a
+        href="https://www.facebook.com/p/Dr-Adalberto-Echevarria-Feliciano-61571149216171/"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Visitar página de Facebook - se abre en nueva pestaña"
+        title="Visitar página de Facebook"
+        class="inline-flex items-center gap-2 px-3 py-1 rounded-md hover:bg-white/10 transition"
+      >
+        <!-- Facebook SVG icon (simple, uses currentColor) -->
+        <svg class="w-4 h-4" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+          <path d="M22 12a10 10 0 10-11.5 9.9v-7H8.9v-2.9h1.6V9.4c0-1.6.95-2.5 2.4-2.5.7 0 1.4.05 1.9.1v2.2h-1.1c-1.1 0-1.4.66-1.4 1.3v1.6h2.4l-.38 2.9h-2.02v7A10 10 0 0022 12z"/>
+        </svg>
+        <span class="leading-none">Facebook</span>
+      </a>
+    </div>
+  </footer>
+</body>
+</html>
